@@ -2,21 +2,21 @@
     "productos": [
         {
             "nombre": "fc 26",
-            "precio": "30",
+            "precio": 30,
             "stock": 40,
             "categoria": "informatica"
         },
 
         {
             "nombre": "dexter",
-            "precio": "12",
+            "precio": 1,
             "stock": 20,
-            "categoria": "libro"
+            "categoria": "libros"
         },
 
         {
             "nombre": "camiseta",
-            "precio": "6",
+            "precio": 6,
             "stock": 10,
             "categoria": "ropa"
         }
