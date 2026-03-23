@@ -1,7 +1,7 @@
 <productos>
     <producto>
         <nombre>fc 26</nombre>
-        <precio>30</precio>
+        <precio>-30</precio>
         <stock>40</stock>
         <categoria>informatica</categoria>
     </producto>
