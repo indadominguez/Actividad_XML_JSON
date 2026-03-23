@@ -1,0 +1,30 @@
+{
+"$schema": "https://json-schema.org/draft/2020-12/schema",
+"type": "object",
+"properties": {
+    "productos": {
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+        "nombre": {
+            "type": "string"
+        },
+        "precio": {
+            "type": "number",
+            "exclusiveMinimum": 0
+        },
+        "stock": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "categoria": {
+            "type": "string",
+            "enum": ["libros", "ropa", "informatica"]
+        }
+        },
+        "required": ["nombre", "precio", "stock", "categoria"]      }
+    }
+},
+"required": ["productos"]
+}

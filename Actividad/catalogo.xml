@@ -1,0 +1,22 @@
+<productos>
+    <producto>
+        <nombre>fc 26</nombre>
+        <precio>-30</precio>
+        <stock>40</stock>
+        <categoria>informatica</categoria>
+    </producto>
+
+    <producto>
+        <nombre>dexter</nombre>
+        <precio>12</precio>
+        <stock>20</stock>
+        <categoria>libros</categoria>
+    </producto>
+
+    <producto>
+        <nombre>camiseta</nombre>
+        <precio>6</precio>
+        <stock>10</stock>
+        <categoria>ropa</categoria>
+    </producto>
+</productos>
